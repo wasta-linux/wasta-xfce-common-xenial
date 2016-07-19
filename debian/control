@@ -1,0 +1,16 @@
+Source: wasta-xfce-common-xenial
+Section: utils
+Priority: extra
+Maintainer: Rik Shaw <rikshaw76@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.5
+Homepage: https://github.com/wasta-linux/wasta-xfce-common-xenial
+
+Package: wasta-xfce-common-xenial
+Architecture: all
+Depends: wasta-core-xenial, wasta-multidesktop-xenial, xfce4-session, xfce4-whiskermenu-plugin, xfdesktop4, xfwm4, ${shlibs:Depends}, ${misc:Depends}
+Recommends: alacarte, pavucontrol,  xfce4-appfinder, xfce4-power-manager, xfce4-power-manager-plugins, xfce4-pulseaudio-plugin
+Description: Wasta-Linux XFCE Common
+ Base package for XFCE desktop setup in Wasta-Linux. This package should not
+ be installed directly, but is a dependency of either wasta-xfce-xenial or
+ wasta-xfce-lite-xenial, which are the packages that the end user installs.

@@ -1,0 +1,5 @@
+wasta-xfce-common-xenial (0.9.0) xenial; urgency=medium
+
+  * initial release for Ubuntu 16.04
+
+ -- Rik Shaw <rikshaw76@gmail.com>  Tue, 19 Jul 2016 14:20:53 -0500

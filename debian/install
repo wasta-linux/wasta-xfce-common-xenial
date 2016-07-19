@@ -1,0 +1,4 @@
+install-files/bin                           usr
+install-files/helpers                       usr/share/xfce4
+install-files/Xsession.d                    etc/X11
+wasta-xfce-common                           usr/share
